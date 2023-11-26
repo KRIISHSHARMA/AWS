@@ -63,6 +63,39 @@ backup. That data stored which are not needed instantly , eg old data . Takes ti
 ![Screenshot from 2023-11-26 15-40-34](https://github.com/KRIISHSHARMA/AWS/assets/86760658/e96e05df-b33c-400a-8264-946d9a878644)
 ![Screenshot from 2023-11-26 15-40-51](https://github.com/KRIISHSHARMA/AWS/assets/86760658/bb9edf0e-42cb-49b8-abe9-34f0c2d35e87)
 
+### Creating a target group 
+- Your load balancer routes requests to the targets in a target group and performs health checks on the targets.
+- LB routes traffic to target group then traffic group routes traffic to the back end ec2 instances or IP addresses etc
+
+![Screenshot from 2023-11-26 15-49-16](https://github.com/KRIISHSHARMA/AWS/assets/86760658/eff46d2f-b504-44e9-9269-7a2b877930d6)
+![Screenshot from 2023-11-26 15-49-16](https://github.com/KRIISHSHARMA/AWS/assets/86760658/5500b66f-9467-4353-9599-5186bcbb156a)
+![Screenshot from 2023-11-26 15-50-48](https://github.com/KRIISHSHARMA/AWS/assets/86760658/848472d8-4fda-4580-9563-d10d1e17202c)
+
+![Screenshot from 2023-11-26 16-19-25](https://github.com/KRIISHSHARMA/AWS/assets/86760658/bb5bbe47-681f-4383-8825-a3974aef26a4)
+![Screenshot from 2023-11-26 16-24-54](https://github.com/KRIISHSHARMA/AWS/assets/86760658/f9a7faaf-0855-4cc3-afa5-fc65e9793b22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
