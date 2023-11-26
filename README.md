@@ -74,7 +74,20 @@ backup. That data stored which are not needed instantly , eg old data . Takes ti
 ![Screenshot from 2023-11-26 16-19-25](https://github.com/KRIISHSHARMA/AWS/assets/86760658/bb5bbe47-681f-4383-8825-a3974aef26a4)
 ![Screenshot from 2023-11-26 16-24-54](https://github.com/KRIISHSHARMA/AWS/assets/86760658/f9a7faaf-0855-4cc3-afa5-fc65e9793b22)
 
+## Autoscalling 
+![Screenshot from 2023-11-26 16-44-57](https://github.com/KRIISHSHARMA/AWS/assets/86760658/7dc2321e-8595-4bd4-8c6e-b3696e5a6999)
 
+### Creating launch template
+![Screenshot from 2023-11-26 16-59-20](https://github.com/KRIISHSHARMA/AWS/assets/86760658/1ee051f9-5524-4a61-985b-4cbe32bee5ee)
+![Screenshot from 2023-11-26 17-01-18](https://github.com/KRIISHSHARMA/AWS/assets/86760658/ce935d36-35b6-4fbf-8662-d4e0ccb17fcc)
+![Screenshot from 2023-11-26 17-17-33](https://github.com/KRIISHSHARMA/AWS/assets/86760658/8aee6470-e044-437e-a5f8-8811d748f1f0)
+![Screenshot from 2023-11-26 17-19-34](https://github.com/KRIISHSHARMA/AWS/assets/86760658/884c3f5a-4104-46f1-b197-164ce1cf29e4)
+
+
+![Screenshot from 2023-11-26 17-05-17](https://github.com/KRIISHSHARMA/AWS/assets/86760658/b3b85552-b55e-4e5d-bb8e-b221add8bc17)
+![Screenshot from 2023-11-26 17-08-50](https://github.com/KRIISHSHARMA/AWS/assets/86760658/b7f17b5a-3a38-4cf3-a754-fca7fc871c01)
+![Screenshot from 2023-11-26 17-11-22](https://github.com/KRIISHSHARMA/AWS/assets/86760658/8fe1d28f-e615-48f4-8e19-c1e6932263e2)
+![Uploading Screenshot from 2023-11-26 17-22-51.png…]()
 
 
 
