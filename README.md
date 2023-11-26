@@ -108,6 +108,8 @@ seq 999999999999999999999 > /dev/null &
 ```
 ![Screenshot from 2023-11-26 17-43-25](https://github.com/KRIISHSHARMA/AWS/assets/86760658/93d6f92d-ba24-4e4a-8f2e-5901802d18f0)
 
+![Screenshot from 2023-11-26 17-58-10](https://github.com/KRIISHSHARMA/AWS/assets/86760658/88495da3-fbbe-4e66-bfc3-94c81d92787c)
+![Screenshot from 2023-11-26 17-58-29](https://github.com/KRIISHSHARMA/AWS/assets/86760658/00cd991a-994e-4890-9176-adb65dbf3ccd)
 
 
 
