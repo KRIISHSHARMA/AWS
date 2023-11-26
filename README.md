@@ -94,7 +94,19 @@ backup. That data stored which are not needed instantly , eg old data . Takes ti
 ![Screenshot from 2023-11-26 17-34-29](https://github.com/KRIISHSHARMA/AWS/assets/86760658/1e2b5ae4-2379-4a52-a3d8-687e9e1bf3cd)
 ![Screenshot from 2023-11-26 17-35-23](https://github.com/KRIISHSHARMA/AWS/assets/86760658/8cead298-7c0e-4f1d-878e-ef6792825f03)
 
+## Artificial load 
+``` bash
+htop
+```
+![Screenshot from 2023-11-26 17-39-48](https://github.com/KRIISHSHARMA/AWS/assets/86760658/c6aa182a-0282-45f5-b610-c3aad12e57cd)
 
+- currently 0
+
+- making instance count to a high number
+``` bash
+seq 999999999999999999999 > /dev/null &
+```
+![Screenshot from 2023-11-26 17-43-25](https://github.com/KRIISHSHARMA/AWS/assets/86760658/93d6f92d-ba24-4e4a-8f2e-5901802d18f0)
 
 
 
