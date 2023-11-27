@@ -130,8 +130,28 @@ seq 999999999999999999999 > /dev/null &
 ![Screenshot from 2023-11-27 16-45-38](https://github.com/KRIISHSHARMA/AWS/assets/86760658/fae33c2d-6122-4ee2-aa75-5f061bcbba20)
 ![Screenshot from 2023-11-27 16-47-42](https://github.com/KRIISHSHARMA/AWS/assets/86760658/768d5a91-8c74-42ed-b08e-14c3ad5c11eb)
 
+``` bash
+sudo snap install aws-cli
+```
+``` bash
+aws configure
+```
+![Screenshot from 2023-11-27 17-08-27](https://github.com/KRIISHSHARMA/AWS/assets/86760658/71a8036d-299a-4b48-adbb-8049b3f16dea)
 
+- in security credentials , before creating access key copy and paste PU , PrK and fill location and format in terminal 
+- give user access
 
+![Screenshot from 2023-11-27 17-30-18](https://github.com/KRIISHSHARMA/AWS/assets/86760658/50c16ed9-0a30-49a2-b9aa-d834c2622e99)
+
+![Screenshot from 2023-11-27 17-31-17](https://github.com/KRIISHSHARMA/AWS/assets/86760658/a7ce2566-0cbb-4b6e-8412-106c939a0f81)
+![Screenshot from 2023-11-27 17-31-32](https://github.com/KRIISHSHARMA/AWS/assets/86760658/cb651886-272d-4b28-94de-25785de9fcab)
+
+- after creating instance
+``` bash
+aws ec2 describe-instances
+``` 
+
+![Screenshot from 2023-11-27 17-35-01](https://github.com/KRIISHSHARMA/AWS/assets/86760658/e4ba62f0-42f5-4e8d-840f-41d32e1cf6a3)
 
 
 
