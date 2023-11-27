@@ -124,8 +124,11 @@ seq 999999999999999999999 > /dev/null &
 - going to the DNS name and reloading will take you to diff targets(3)
 - this is **round robin** at work  
 
-## Creating a VPC
+## AWS CLI : The AWS Command Line Interface (AWS CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.
+- BOTO library in python
 
+![Screenshot from 2023-11-27 16-45-38](https://github.com/KRIISHSHARMA/AWS/assets/86760658/fae33c2d-6122-4ee2-aa75-5f061bcbba20)
+![Screenshot from 2023-11-27 16-47-42](https://github.com/KRIISHSHARMA/AWS/assets/86760658/768d5a91-8c74-42ed-b08e-14c3ad5c11eb)
 
 
 
