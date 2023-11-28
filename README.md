@@ -161,7 +161,7 @@ aws ec2 describe-instances
 ![Screenshot from 2023-11-27 18-26-06](https://github.com/KRIISHSHARMA/AWS/assets/86760658/4789776e-d9e7-4a27-8c3d-038298c02daf)
 
 
-
+- docker image to create art load
 
 
 
