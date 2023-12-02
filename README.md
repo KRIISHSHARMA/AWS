@@ -175,11 +175,21 @@ aws ec2 describe-instances
 ![Screenshot from 2023-12-02 16-01-33](https://github.com/KRIISHSHARMA/AWS/assets/86760658/9208cded-f435-451a-a192-c4a254244e75)
 ![Screenshot from 2023-12-02 16-12-26](https://github.com/KRIISHSHARMA/AWS/assets/86760658/9efd1bc2-5393-4ac1-9a28-0355a7961482)
 ![Screenshot from 2023-12-02 16-12-51](https://github.com/KRIISHSHARMA/AWS/assets/86760658/b7a5eecb-5d92-46af-a9ad-7ba6db2a5391)
-![Screenshot from 2023-12-02 16-19-24](https://github.com/KRIISHSHARMA/AWS/assets/86760658/ec43acff-8aa8-47af-95fe-9c4c2bc65177)
+
 
 - after confiugring aws cli on cloud 9 (scroll up) 
--  configure EKS ctl [link for installation](https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/setting-up-eksctl.html)
+-  configure EKS ctl and kubectl [link for installation](https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/setting-up-eksctl.html)
+  
+![Screenshot from 2023-12-02 16-35-44](https://github.com/KRIISHSHARMA/AWS/assets/86760658/e128f431-c888-4cc3-b8fa-2f7a0a3835a1)
+![Screenshot from 2023-12-02 16-55-57](https://github.com/KRIISHSHARMA/AWS/assets/86760658/79d1bb3c-b8b3-49af-bd3f-b7552ab700da)
+![Screenshot from 2023-12-02 16-56-13](https://github.com/KRIISHSHARMA/AWS/assets/86760658/9e89cf9d-7dbc-419e-8f0b-f35c8b830198)
+![Screenshot from 2023-12-02 16-57-22](https://github.com/KRIISHSHARMA/AWS/assets/86760658/7bd6650b-e499-414d-baef-5f7a5bdc8799)
 
+- launching a cluster
+  ```bash
+  eksctl create cluster --name test --version 1.28 --nodegroup-name ng.default --node-type t3.micro --nodes 2 --managed
+  ```
+  
 
 ## EKS 
 ![Screenshot from 2023-12-02 16-04-58](https://github.com/KRIISHSHARMA/AWS/assets/86760658/86c01036-bc68-4035-a38f-21a253b80f20)
