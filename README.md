@@ -231,7 +231,7 @@ aws ec2 describe-instances
 ![Screenshot from 2023-12-02 18-00-51](https://github.com/KRIISHSHARMA/AWS/assets/86760658/e926f3b6-ec65-43a1-854d-6c809c6680f4)
 
 - can scale it 
-![Uploading Screenshot from 2023-12-02 18-03-17.png…]()
+![Screenshot from 2023-12-02 18-03-17](https://github.com/KRIISHSHARMA/AWS/assets/86760658/533bd710-6456-47ed-8235-266d641d31a9)
 
 
 
