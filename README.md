@@ -233,6 +233,72 @@ aws ec2 describe-instances
 - can scale it 
 ![Screenshot from 2023-12-02 18-03-17](https://github.com/KRIISHSHARMA/AWS/assets/86760658/533bd710-6456-47ed-8235-266d641d31a9)
 
+- install matrix server , will continue to moniter the cpu matrix ,without this will not show how much resources are utilised 
+``` bash
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+```
+
+- creating php-apache autoscaling yaml file
+  ``` bash
+  apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: php-apache
+  spec:
+    selector:
+      matchLabels:
+        run: php-apache
+    template:
+      metadata:
+        labels:
+          run: php-apache
+      spec:
+        containers:
+        - name: php-apache
+          image: registry.k8s.io/hpa-example
+          ports:
+          - containerPort: 80
+          resources:
+            limits:
+              cpu: 500m
+            requests:
+              cpu: 200m
+  ---
+  apiVersion: v1
+  kind: Service
+  metadata:
+    name: php-apache
+    labels:
+      run: php-apache
+  spec:
+    ports:
+    - port: 80
+    selector:
+      run: php-apache
+  ---
+  
+  apiVersion: autoscaling/v1
+  kind: HorizontalPodAutoscaler
+  metadata:
+    name: php-apache
+    namespace: default
+  spec:
+    scaleTargetRef:
+       apiVersion: apps/v1
+       kind: Deployment
+       name: php-apache
+    minReplicas: 1
+    maxReplicas: 10
+    targetCPUUtilizationPercentage: 50
+  ```
+
+```  bash
+nano hpa.yaml
+```
+- deploying
+  ``` bash
+  kubectl apply -f hpa.yaml
+  ```
 
 
 
