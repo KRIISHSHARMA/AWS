@@ -238,7 +238,7 @@ aws ec2 describe-instances
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 ```
 
-- creating php-apache autoscaling yaml file
+- creating php-apache autoscaling yaml file for horizontal pod autoscaling
   ``` bash
   apiVersion: apps/v1
   kind: Deployment
@@ -299,9 +299,17 @@ nano hpa.yaml
   ``` bash
   kubectl apply -f hpa.yaml
   ```
+![Screenshot from 2023-12-02 18-46-22](https://github.com/KRIISHSHARMA/AWS/assets/86760658/95757273-91db-4065-9265-fbebcbe59cc2)
+![Screenshot from 2023-12-02 19-07-14](https://github.com/KRIISHSHARMA/AWS/assets/86760658/a99730d8-96b4-4915-b27e-53264933f50a)
 
+- artificial load
+  ``` bash
+  kubectl run -i --tty load-generator --rm --image=busybox:1.28 --restart=Never -- /bin/sh -c "while sleep 0.01; do wget -q -O- http://php-apache; done"
+  ```
 
-
+- creating a load balancer type service 
+![Screenshot from 2023-12-02 19-20-07](https://github.com/KRIISHSHARMA/AWS/assets/86760658/a815b33d-e2e0-4ade-b6e4-da263e14ad14)
+- https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
 
 
 
