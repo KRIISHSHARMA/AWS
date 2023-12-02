@@ -224,6 +224,21 @@ aws ec2 describe-instances
   ```
 ![Screenshot from 2023-12-02 17-51-03](https://github.com/KRIISHSHARMA/AWS/assets/86760658/1d1e3352-8c71-4714-91f4-b94a25168230)
 
+- to see pods used by kubectl
+![Screenshot from 2023-12-02 17-58-35](https://github.com/KRIISHSHARMA/AWS/assets/86760658/4621853e-23ea-4d95-be42-986136776895)
+
+- autoscaler used by eks
+![Screenshot from 2023-12-02 18-00-51](https://github.com/KRIISHSHARMA/AWS/assets/86760658/e926f3b6-ec65-43a1-854d-6c809c6680f4)
+
+- can scale it 
+![Uploading Screenshot from 2023-12-02 18-03-17.png…]()
+
+
+
+
+
+
+
 ## EKS 
 ![Screenshot from 2023-12-02 16-04-58](https://github.com/KRIISHSHARMA/AWS/assets/86760658/86c01036-bc68-4035-a38f-21a253b80f20)
 ![Screenshot from 2023-12-02 16-08-06](https://github.com/KRIISHSHARMA/AWS/assets/86760658/694af61d-a154-461c-a15c-33cf94787fe4)
