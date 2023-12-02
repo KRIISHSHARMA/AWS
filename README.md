@@ -189,7 +189,33 @@ aws ec2 describe-instances
   ```bash
   eksctl create cluster --name test --version 1.28 --nodegroup-name ng.default --node-type t3.micro --nodes 2 --managed
   ```
-  
+  ![Screenshot from 2023-12-02 17-05-19](https://github.com/KRIISHSHARMA/AWS/assets/86760658/460b3b95-798a-439f-9611-95c419fa1064)
+
+- yaml file for nginx container launched with official nginx image
+  ``` bash
+    apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: nginx-deployment
+  spec:
+    selector:
+      matchLabels:
+        app: nginx
+    replicas: 1
+    template:
+      metadata:
+        labels:
+          app: nginx
+      spec:
+        containers:
+        - name: nginx
+          image: nginx:1.14.2
+          ports:
+          - containerPort: 80
+  ```
+``` bash
+  nano nginx-deployment.yaml
+```
 
 ## EKS 
 ![Screenshot from 2023-12-02 16-04-58](https://github.com/KRIISHSHARMA/AWS/assets/86760658/86c01036-bc68-4035-a38f-21a253b80f20)
