@@ -311,6 +311,10 @@ nano hpa.yaml
 ![Screenshot from 2023-12-02 19-20-07](https://github.com/KRIISHSHARMA/AWS/assets/86760658/a815b33d-e2e0-4ade-b6e4-da263e14ad14)
 - https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
 
+- creating nodeport service
+  ![Screenshot from 2023-12-02 19-26-13](https://github.com/KRIISHSHARMA/AWS/assets/86760658/57ca24cb-0985-4df1-89b0-14e87e1269df)
+![Screenshot from 2023-12-02 19-26-13](https://github.com/KRIISHSHARMA/AWS/assets/86760658/6a4e6521-54a8-499d-8c50-e1ed1944c3f9)
+![Screenshot from 2023-12-02 19-33-13](https://github.com/KRIISHSHARMA/AWS/assets/86760658/63a123b8-95fb-46ce-a57d-b9098359d1ef)
 
 
 ## EKS 
