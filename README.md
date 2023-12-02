@@ -177,6 +177,10 @@ aws ec2 describe-instances
 ![Screenshot from 2023-12-02 16-12-51](https://github.com/KRIISHSHARMA/AWS/assets/86760658/b7a5eecb-5d92-46af-a9ad-7ba6db2a5391)
 ![Screenshot from 2023-12-02 16-19-24](https://github.com/KRIISHSHARMA/AWS/assets/86760658/ec43acff-8aa8-47af-95fe-9c4c2bc65177)
 
+- after confiugring aws cli on cloud 9 (scroll up) 
+-  configure EKS ctl [link for installation](https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/setting-up-eksctl.html)
+
+
 ## EKS 
 ![Screenshot from 2023-12-02 16-04-58](https://github.com/KRIISHSHARMA/AWS/assets/86760658/86c01036-bc68-4035-a38f-21a253b80f20)
 ![Screenshot from 2023-12-02 16-08-06](https://github.com/KRIISHSHARMA/AWS/assets/86760658/694af61d-a154-461c-a15c-33cf94787fe4)
