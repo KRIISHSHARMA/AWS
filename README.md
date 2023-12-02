@@ -162,6 +162,24 @@ aws ec2 describe-instances
 
 
 - docker image to create art load
+- pods : Pods are the smallest deployable units of computing that you can create and manage in Kubernetes. A Pod (as in a pod of whales or pea pod) is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers.
+
+ ![download](https://github.com/KRIISHSHARMA/AWS/assets/86760658/1bf8d1eb-e0b6-4674-bd98-fbcf383135d3)
+
+- daemon sets : works on nodes where pods are running , can manage all your agents eg if we are runninf 5 ec2 instances behind the k8s cluster then we can run 1 daemon set and that daemon set wil take care of all the agents 
+
+## CLOUD 9
+- cloud based IDE (vscode , pycharm etc)
+- provides IDE on browsers
+
+![Screenshot from 2023-12-02 16-01-33](https://github.com/KRIISHSHARMA/AWS/assets/86760658/9208cded-f435-451a-a192-c4a254244e75)
+![Screenshot from 2023-12-02 16-12-26](https://github.com/KRIISHSHARMA/AWS/assets/86760658/9efd1bc2-5393-4ac1-9a28-0355a7961482)
+![Screenshot from 2023-12-02 16-12-51](https://github.com/KRIISHSHARMA/AWS/assets/86760658/b7a5eecb-5d92-46af-a9ad-7ba6db2a5391)
+![Screenshot from 2023-12-02 16-19-24](https://github.com/KRIISHSHARMA/AWS/assets/86760658/ec43acff-8aa8-47af-95fe-9c4c2bc65177)
+
+## EKS 
+![Screenshot from 2023-12-02 16-04-58](https://github.com/KRIISHSHARMA/AWS/assets/86760658/86c01036-bc68-4035-a38f-21a253b80f20)
+![Screenshot from 2023-12-02 16-08-06](https://github.com/KRIISHSHARMA/AWS/assets/86760658/694af61d-a154-461c-a15c-33cf94787fe4)
 
 
 
@@ -175,3 +193,7 @@ aws ec2 describe-instances
 
 
 
+
+
+
+ 
