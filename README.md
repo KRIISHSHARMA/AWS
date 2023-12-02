@@ -193,29 +193,36 @@ aws ec2 describe-instances
 
 - yaml file for nginx container launched with official nginx image
   ``` bash
-    apiVersion: apps/v1
+     apiVersion: apps/v1
   kind: Deployment
   metadata:
-    name: nginx-deployment
+      labels:
+          environment: test
+      name: test
   spec:
-    selector:
-      matchLabels:
-        app: nginx
-    replicas: 1
-    template:
-      metadata:
-        labels:
-          app: nginx
-      spec:
-        containers:
-        - name: nginx
-          image: nginx:1.14.2
-          ports:
-          - containerPort: 80
+      replicas: 1
+      selector:
+          matchLabels:
+               environment: test
+      template:
+          metadata:
+              labels:
+                  environment: test
+          spec:
+              containers:
+              - image: nginx:1.16
+                name: nginx
+
   ```
 ``` bash
   nano nginx-deployment.yaml
 ```
+- kubectl is the thing using which we will be creating , launching the resources , creating pods , troubleshooting cluster using kubectl
+- we will apply this file using kubectl
+  ``` bash
+    kubectl apply -f nginx-deployment.yaml
+  ```
+![Screenshot from 2023-12-02 17-51-03](https://github.com/KRIISHSHARMA/AWS/assets/86760658/1d1e3352-8c71-4714-91f4-b94a25168230)
 
 ## EKS 
 ![Screenshot from 2023-12-02 16-04-58](https://github.com/KRIISHSHARMA/AWS/assets/86760658/86c01036-bc68-4035-a38f-21a253b80f20)
